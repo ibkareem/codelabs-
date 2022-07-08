@@ -36,7 +36,7 @@ function listCreator(res) {
     topics.replaceChildren();
     ul.replaceChildren();
   }
-  for (let i = 0; i < 7; i++) {
+  for (let i = 0; i < res.length; i++) {
     const list = document.createElement("li");
     list.className = "list-group-item";
     list.data = res[i];
